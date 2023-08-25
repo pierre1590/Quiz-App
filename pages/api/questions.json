@@ -1,6 +1,6 @@
 [
   {
-    "question": "Qual è il gas responsabile dell'effetto serra?",
+    "question": "Qual'è il gas responsabile dell'effetto serra?",
     "answerOptions": [
       { "answer": "Anidride carbonica" },
       { "answer": "Ossigeno" },
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question": "Qual è la principale fonte di inquinamento dell'aria nelle città?",
+    "question": "Qual'è la principale fonte di inquinamento dell'aria nelle città?",
     "answerOptions": [
       { "answer": "Smog", "isCorrect": true },
       { "answer": "Polvere" },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "question": "Qual è il principale contributore all'innalzamento del livello del mare?",
+    "question": "Qual'è il principale contributore all'innalzamento del livello del mare?",
     "answerOptions": [
       { "answer": "Ghiacciai", "isCorrect": true },
       { "answer": "Scarsa piantumazione" },
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "question": "Qual è la temperatura media del nostro pianeta?",
+    "question": "Qual'è la temperatura media del nostro pianeta?",
     "answerOptions": [
       { "answer": "25°C" },
       { "answer": "10°C" },
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "question": "Qual è il maggiore inquinante dell'acqua dolce?",
+    "question": "Qual'è il maggiore inquinante dell'acqua dolce?",
     "answerOptions": [
       { "answer": "Rifiuti plastici", "isCorrect": true },
       { "answer": "Olio da cucina" },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "question": "Qual è il processo che converte i rifiuti in materiale riutilizzabile?",
+    "question": "Qual'è il processo che converte i rifiuti in materiale riutilizzabile?",
     "answerOptions": [
       { "answer": "Composting" },
       { "answer": "Incenerimento" },
