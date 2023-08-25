@@ -71,7 +71,7 @@ const Home: NextPage = () => {
               setCurrentQuestion(0);
               setSelectedOptions([]);
             }}
-            className="w-[49%] py-2 bg-green rounded-lg m-3"
+            className="w-[49%] py-2 bg-green rounded-lg m-3 animate-pulse hover:bg-azure"
           >
             Retry
           </button>
