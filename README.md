@@ -23,3 +23,10 @@ Dopo aver risposto a 10 domande un utente riceverà il punteggio e potrà ripete
 2) Entrare nella cartella del progetto con il comando `cd quiz`
 3) Installare le dipendenze con il comando `npm install` o `yarn`
 4) Avviare il progetto con il comando `npm run dev` o `yarn dev`
+
+## Link to the project
+[Quiz-App](https://github.com/pierre1590/Quiz-App)
+
+## Author
+- [Piero Sabino](https://github.com/pierre1590/pierre1590)
+- [Website](https://www.pierosabino.it/)
