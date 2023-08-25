@@ -47,7 +47,7 @@ const Home: NextPage = () => {
     nextQues < questions.length && setCurrentQuestion(nextQues);
   };
   return (
-    <div className="flex flex-col w-screen px-5 h-screen bg-[#1A1A1A] justify-center items-center">
+    <div className="flex flex-col w-screen px-5 h-screen bg-gradient-to-t from-secondary to-lightblue justify-center items-center">
       <Head>
         <title>Quiz App</title>
       </Head>
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
       ) : (
         <>
           <div className="flex flex-col  max-w-lg">
-            <h4 className="mt-10 text-xl text-primary/60">
+            <h4 className="mt-10 text-xl text-secondary/23">
               Question {currentQuestion + 1} of {questions.length}
             </h4>
             <div className="mt-4 text-2xl text-primary">
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
           <div className="flex justify-between w-full mt-4 text-primary max-w-md">
             <button
               onClick={handlePrevious}
-              className="w-[49%] py-3 bg-azure rounded-lg"
+              className="w-[49%] py-3 hover:bg-azure rounded-lg bg-blue  "
             >
               Previous
             </button>
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
                   ? handleSubmitButton
                   : handleNext
               }
-              className="w-[49%] py-3 bg-azure rounded-lg"
+              className="w-[49%] py-3 hover:bg-azure rounded-lg bg-blue"
             >
               {currentQuestion + 1 === questions.length ? "Submit" : "Next"}
             </button>

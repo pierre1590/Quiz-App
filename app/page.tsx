@@ -15,8 +15,8 @@ export default function Home() {
                 You have to answer 10 questions and at the end you will be given a score which will define your level.
                 </p>
                 {/*A button to start quiz and go to the page Quiz*/}
-                <button className="w-[49%] py-2 rounded-lg bg-azure">
-                  <Link href="/quiz" className="text-primary">Start Quiz</Link>
+                <button className="w-[49%] py-2 rounded-lg hover:bg-azure rounded-lg bg-blue">
+                  <Link href="/quiz" className="text-primary animate-pulse">Start Quiz</Link>
                 </button>
               </div>
           </div>
