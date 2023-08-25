@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Qual è il gas responsabile dell'effetto serra?",
+    "answerOptions": [
+      { "answer": "Anidride carbonica" },
+      { "answer": "Ossigeno" },
+      { "answer": "Azoto" },
+      { "answer": "Metano", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Quale delle seguenti non è una fonte di energia rinnovabile?",
+    "answerOptions": [
+      { "answer": "Eolica" },
+      { "answer": "Solare" },
+      { "answer": "Carbone", "isCorrect": true },
+      { "answer": "Idroelettrica" }
+    ]
+  },
+  {
+    "question": "Cosa rappresenta l'acronimo 'CO2'?",
+    "answerOptions": [
+      { "answer": "Ossigeno di carbonio" },
+      { "answer": "Anidride carbonica", "isCorrect": true },
+      { "answer": "Carbonio ossidato" },
+      { "answer": "Monossido di carbonio" }
+    ]
+  },
+  {
+    "question": "Qual è la principale fonte di inquinamento dell'aria nelle città?",
+    "answerOptions": [
+      { "answer": "Smog", "isCorrect": true },
+      { "answer": "Polvere" },
+      { "answer": "Gas serra" },
+      { "answer": "Fumo di sigaretta" }
+    ]
+  },
+  {
+    "question": "Qual è il principale contributore all'innalzamento del livello del mare?",
+    "answerOptions": [
+      { "answer": "Ghiacciai", "isCorrect": true },
+      { "answer": "Scarsa piantumazione" },
+      { "answer": "Oceani" },
+      { "answer": "Pioggia acida" }
+    ]
+  },
+  {
+    "question": "Qual è la temperatura media del nostro pianeta?",
+    "answerOptions": [
+      { "answer": "25°C" },
+      { "answer": "10°C" },
+      { "answer": "15°C", "isCorrect": true },
+      { "answer": "20°C" }
+    ]
+  },
+  {
+    "question": "Cosa rappresenta l'acronimo 'UNFCCC'?",
+    "answerOptions": [
+      { "answer": "United Nations Framework Convention on Climate Change", "isCorrect": true },
+      { "answer": "Underground Forests for Climate Change Control" },
+      { "answer": "Universal Network for Food and Climate Change Control" },
+      { "answer": "United Nations Fighting Climate Change Corporations" }
+    ]
+  },
+  {
+    "question": "Qual è il maggiore inquinante dell'acqua dolce?",
+    "answerOptions": [
+      { "answer": "Rifiuti plastici", "isCorrect": true },
+      { "answer": "Olio da cucina" },
+      { "answer": "Amianto" },
+      { "answer": "Piombo" }
+    ]
+  },
+  {
+    "question": "Qual è il processo che converte i rifiuti in materiale riutilizzabile?",
+    "answerOptions": [
+      { "answer": "Composting" },
+      { "answer": "Incenerimento" },
+      { "answer": "Landfill" },
+      { "answer": "Recycling", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "Cosa rappresenta l'acronimo 'IPCC'?",
+    "answerOptions": [
+      { "answer": "International Panel on Climate Control" },
+      { "answer": "Interstellar Planet Classification Council" },
+      { "answer": "Intergalactic Policies for Climate Change" },
+      { "answer": "Intergovernmental Panel on Climate Change", "isCorrect": true }
+    ]
+  }
+]
