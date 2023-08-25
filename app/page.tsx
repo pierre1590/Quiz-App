@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
        <>
-          <div className="bg-secondary">
+          <div className="bg-gradient-to-t from-secondary to-lightblue">
             <div className="flex flex-col items-center justify-center w-full min-h-screen">
               <div className="flex flex-col items-center justify-center w-full max-w-2xl px-4 py-8 space-y-4 bg-white rounded-lg shadow-lg">
                 <h1 className="text-4xl font-bold text-center text-primary">
