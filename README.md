@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz
 
-## Getting Started
 
-First, run the development server:
+## Introduction
+Il quiz che ho creato permette di rispondere a 10 domande sull'ambiente e sul cambiamento climatico. 
+Dopo aver risposto a 10 domande un utente riceverà il punteggio e potrà ripetere il quiz.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
+- Next.js
+- React.js 
+- TailwindCSS 
+- Typescript
+- React Hooks
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project development
+1) Ho creato la pagina iniziale del progetto `app/page.tsx` in cui spiego brevemente cosa rigurada il quiz e ho inserito un pulsante per iniziare il quiz.
+2) Ho creato un file nella cartella `interfaces/page.tsx` in cui ho inserito le interfacce per le domande e le risposte.
+3) In `app/quiz/page.tsx` ho creato il file che gestisce le domande e le risposte del quiz con relativo punteggio e alla fine viene mostrata una schermata con il punteggio ottenuto ed un pulsante che permette all'utente di riprovarlo.
+4) In `pages/api/questions.json`  ho inserito le domande e le risposte del quiz che vengono estrapolate nel file `app/quiz/page.tsx` per essere utilizzate. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## How to run the project in local
+1) Clonare il progetto da GitHub con il comando `git clone ...`
+2) Entrare nella cartella del progetto con il comando `cd quiz`
+3) Installare le dipendenze con il comando `npm install` o `yarn`
+4) Avviare il progetto con il comando `npm run dev` o `yarn dev`
