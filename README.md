@@ -19,7 +19,7 @@ Dopo aver risposto a 10 domande un utente riceverà il punteggio e potrà ripete
 4) In `pages/api/questions.json`  ho inserito le domande e le risposte del quiz che vengono estrapolate nel file `app/quiz/page.tsx` per essere utilizzate. 
 
 ## How to run the project in local
-1) Clonare il progetto da GitHub con il comando `git clone ...`
+1) Clonare il progetto da GitHub con il comando `git clone ...`  oppure estrarre il file zip e successivamente aprire il terminale nella cartella del progetto e passare al punto 3.
 2) Entrare nella cartella del progetto con il comando `cd quiz`
 3) Installare le dipendenze con il comando `npm install` o `yarn`
 4) Avviare il progetto con il comando `npm run dev` o `yarn dev`
